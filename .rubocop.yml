@@ -1,0 +1,16 @@
+   AllCops:
+     NewCops: enable
+     TargetRubyVersion: 3.0
+
+   Layout/LineLength:
+     Max: 100
+
+   Metrics/MethodLength:
+     Max: 10
+
+   Style/StringLiterals:
+     EnforcedStyle: double_quotes
+
+   # Отключение некоторых проверок
+   Metrics/BlockLength:
+     Enabled: false
